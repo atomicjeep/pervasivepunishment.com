@@ -1,2 +1,2 @@
-# xx.iriss.org.uk
-Archive of XX project website by Iriss
+# https://pervasivepunishment.com
+Archive of Pervasive Punishment project website by Paul Hart
