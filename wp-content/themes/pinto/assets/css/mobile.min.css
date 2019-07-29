@@ -1,0 +1,62 @@
+@media only screen and (max-width :1350px) {.jp-volume-bar {width: 8.5% !important;}}
+@media only screen and (max-width :1160px) {.jp-volume-bar {width: 11% !important;}
+	.jp-progress {max-width: 67% !important;}}
+@media only screen and (max-width :1012px) {.jp-volume-bar {width: 10% !important;}
+	.jp-progress {max-width: 65% !important;}}
+@media only screen and (max-width :906px) {.jp-volume-bar {width: 10% !important;}
+	.jp-progress {max-width: 63% !important;}
+	a.jp-mute span {display: none !important;}
+	.jp-toggles {width: 0 !important;}
+	.post-container {padding: 0 30px;}}
+@media only screen and (max-width :768px) {.row {padding: 0 20px;}
+	#toTop {display: none !important;}
+	#primary-container {padding: 40px 0 0;}
+	.logged-in .hidden-sidebar {padding-top: 83px;}
+	.sidebar-btn .menu-icon {right: -25px;top: 20px;}
+	#header-container {padding: 50px 0;}
+	#header-container .theme-tagline {margin: 25px 0 5px;}
+	#footer-container .six.columns.centered, #header-container .eight.columns.centered {width: 95%;}
+	#footer-container {margin-top: 0;}
+	.blog section.post .entry-header .nine.columns {width: 100%;}
+	.pagination.index {margin-bottom: 50px;}
+	.post-container {padding: 0 20px;}
+	.post h1.entry-title {font-size: 35px;line-height: 40px;margin-bottom: 25px;}
+	blockquote {margin: 30px 0;}
+	.entry-content ol, .entry-content ul {margin: 30px 0 30px 20px;}
+	.search #primary-container #searchform input[type=text] {font-size: 35px;line-height: 75px;text-align: center;}
+	.search #primary-container #searchform .button[type=submit] {display: none;}
+	section.type-post {max-width: 100%;}
+	.meta-list.single-share {margin-bottom: -10px !important;}
+	.fullwidth .format-audio div.jp-progress {width: 71%;}
+	#comments .nine.columns.push-three, .contact-submit .button[type=submit], ul.bean-contactform .button, ul.bean-contactform li.six {width: 100%;}
+	.format-video div.jp-interface {max-width: 686px;}
+	#comments h2, #reply-title {font-size: 25px;margin-bottom: 0;}
+	#reply-title {margin-bottom: 20px;}
+	#comments-list {padding-bottom: 50px;}
+	.comment-author {margin-top: 20px;}
+	.children #respond, .comment #respond {margin: 0 0 30px;}
+	#commentform #submit, #commentform input[type=text] {margin-bottom: 10px;width: 100%;}
+	#comments .ten.columns.mobile-four {padding: 0;}
+	ul.bean-contactform li.six {padding: 0 !important;}
+	.submit.right {float: none;}}
+@media only screen and (max-width :645px) {#toTop, .mobile-hide {display: none !important;}
+	.entry-meta {margin-top: 0;padding: 25px 0 15px;}
+	.format-audio .nine.columns.centered {width: 100%;}
+	.feat-image-player {margin-top: -45px;}
+	.feat-image-player .jp-interface {border-radius: 0;}
+	.jp-progress {max-width: 58% !important;}
+	.search #primary-container #searchform input[type=text] {font-size: 25px;}
+	.bean-direction-nav a {top: 34%;}
+	a.bean-prev {left: 10px;}
+	a.bean-next {right: 10px;}}
+@media only screen and (max-width :540px) {.jp-progress {max-width: 71% !important;}
+	.jp-time-frame, a.jp-mute, a.jp-mute span, a.jp-unmute, div.jp-volume-bar {display: none !important;}}
+@media only screen and (max-width :400px) {#primary-container .nine.columns.centered {width: 100%;}
+	.archives-list ul li {margin-left: 15px;}
+	.jp-progress {max-width: 76% !important;}
+	.jp-toggles, .jp-volume-bar {display: none !important;}
+	.bean-quote {width: 50% !important;}}
+@media only screen and (min-device-width :768px) and (max-device-width :1024px) {.jp-time-frame, a.jp-mute, a.jp-mute span, a.jp-unmute, div.jp-volume-bar {display: block !important;}}
+@media all and (-webkit-min-device-pixel-ratio:1.5),(min-resolution:192dpi) {#toTop, .bean_widget_tweets li, .close-btn, .meta-icon, .pagination a, .search #searchform .button[type=submit], .sidebar-btn .menu-icon, .widget_search input[type=text] {background-image: url("../images/retina/sprite@2x.png");background-size: 200px 650px;}
+	div.jp-play-bar, div.jp-volume-bar-value {background-image: url("../images/retina/fill@2x.png");background-size: 6px 6px;}
+	a.jp-mute span, a.jp-pause span, a.jp-play span, a.jp-unmute span {background-image: url("../images/retina/jplayer@2x.png");background-size: 30px 123px;}}
